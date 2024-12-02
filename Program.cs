@@ -1,19 +1,29 @@
-﻿
+﻿using System;
+using System.Windows.Forms;
 
 namespace YapDailyDoseCashierSystem
 {
     class YapDailyDoseCashierSystem
     {
-        static void Main()
+        public static void Main()
         {
+            // First Menu to show up         
             Console.Title = "Yap Daily Dose Cashier System";
             Banner();
             Menu();
+            
             Console.Write("\nSelect an option: ");
+            ConsoleKeyInfo option = Console.ReadKey();
+            char menuOption = option.KeyChar;
+
+            switch (menuOption)
+            {
+                case '7':
+                    
+                    return;
+            }
             
             
-            
-            Console.ReadKey();
         }
 
         static void Menu()
@@ -56,5 +66,7 @@ namespace YapDailyDoseCashierSystem
 _______________________________________________________________
 ");
         }
+
+        
     }
 }

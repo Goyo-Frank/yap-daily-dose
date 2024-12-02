@@ -4,10 +4,11 @@ public class DailyMenu
 {
     public static void MenuList()
     {
-        const float cheeseburger = 4.99f;
-        const float grilledChickenSandwich = 6.49f;
-        const float caesarSalad = 5.26f;
-        const float fries = 2.99f;
-        const float chocolateMilkshake = 3.75f; 
+        
     }
+    public float Cheeseburger = 4.99f;
+    public float GrilledChickenSandwich = 6.49f;
+    public float CaesarSalad = 5.26f;
+    public float Fries = 2.99f;
+    public float ChocolateMilkshake = 3.75f; 
 }
